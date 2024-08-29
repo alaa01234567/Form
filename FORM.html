@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <meta charset="UTF-8">
+        <link href="../form/style.css" rel="stylesheet">
+    </head>
+<body>
+<h1>Register</h1>
+
+    <form id="myForm" onsubmit="return validateForm()">
+    <label  for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName">
+    <span class="error" id="firstNameError"></span><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName">
+    <span class="error" id="lastNameError"></span><br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <span class="error" id="emailError"></span><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <span class="error" id="passwordError"></span><br><br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword">
+    <span class="error" id="confirmPasswordError"></span><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone">
+    <span class="error" id="phoneError"></span><br><br>
+
+<input class="bt" type="submit" value="submit">
+</form>
+<script src="../form/script.js"></script>
+</body>
+    </html>
